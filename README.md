@@ -12,24 +12,58 @@ In short, the system is designed to help leadership teams move from scattered do
 
 ## Architecture
 
-The system follows a retrieval-augmented pipeline over internal business documents. Documents are loaded, chunked, embedded, stored in FAISS, and then used by a 7-node question-answering workflow defined in `src/agent/pipeline.py`.
+The system has two connected but separate stages: an indexing stage that prepares the document store, and a question-answering stage that runs when a user asks a leadership question.
 
-```mermaid
-flowchart TD
-   A[Business Documents] --> B[Load Documents]
-   B --> C[Chunk Documents]
-   C --> D[Generate Embeddings]
-   D --> E[Build FAISS Index]
-   E --> F[Leadership Question]
-   F --> G[Decompose]
-   G --> H[Retrieve]
-   H --> I[Grade]
-   I --> J[Generate]
-   J --> K{Grounded?}
-   K -- Yes --> L[Synthesize Decision Brief]
-   K -- No --> M[Rewrite]
-   M --> H
-   L --> N[Final Answer + Sources]
+```text
+STAGE 1: DOCUMENT INDEXING
+
+Business Documents
+   |
+   v
+Load Documents
+   |
+   v
+Chunk Documents
+   |
+   v
+Generate Embeddings
+   |
+   v
+Build / Load FAISS Index
+   |
+   v
+Index Ready
+
+
+STAGE 2: QUESTION ANSWERING
+
+Leadership Question
+   |
+   v
+Decompose Question
+   |
+   +--> If specific: keep the original question
+   |
+   +--> If open-ended: split into 2-4 focused sub-questions
+   |
+   v
+Retrieve Relevant Chunks from FAISS
+   |
+   v
+Grade Relevance
+   |
+   v
+Generate Answer
+   |
+   v
+Grounding Check
+   |
+   +--> If grounded: synthesize decision brief
+   |
+   +--> If not grounded: rewrite question and retrieve again
+   |
+   v
+Final Answer + Sources + Decision Brief
 ```
 
 This gives the project two clear stages:
