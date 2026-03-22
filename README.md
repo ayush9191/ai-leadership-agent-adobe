@@ -12,37 +12,46 @@ In short, the system is designed to help leadership teams move from scattered do
 
 ## Architecture
 
+The system follows a retrieval-augmented pipeline over internal business documents. Documents are loaded, chunked, embedded, stored in FAISS, and then used by a 7-node question-answering workflow defined in `src/agent/pipeline.py`.
+
+```mermaid
+flowchart TD
+   A[Business Documents] --> B[Load Documents]
+   B --> C[Chunk Documents]
+   C --> D[Generate Embeddings]
+   D --> E[Build FAISS Index]
+   E --> F[Leadership Question]
+   F --> G[Decompose]
+   G --> H[Retrieve]
+   H --> I[Grade]
+   I --> J[Generate]
+   J --> K{Grounded?}
+   K -- Yes --> L[Synthesize Decision Brief]
+   K -- No --> M[Rewrite]
+   M --> H
+   L --> N[Final Answer + Sources]
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                     Agentic Pipeline (LangGraph)                 │
-│                                                                  │
-│  ┌───────────┐   ┌──────────┐   ┌───────┐   ┌──────────┐       │
-│  │ Decompose │──▶│ Retrieve │──▶│ Grade │──▶│ Generate │       │
-│  └───────────┘   └──────────┘   └───────┘   └──────────┘       │
-│                       ▲                           │              │
-│                       │                           ▼              │
-│                  ┌─────────┐              ┌──────────────┐       │
-│                  │ Rewrite │◀── (no) ◀───│ Hallucination│       │
-│                  └─────────┘              │    Check     │       │
-│                                           └──────┬───────┘       │
-│                                             (yes)│               │
-│                                                  ▼               │
-│                                          ┌────────────┐          │
-│                                          │ Synthesize │──▶ END   │
-│                                          └────────────┘          │
-└──────────────────────────────────────────────────────────────────┘
-```
+
+This gives the project two clear stages:
+
+1. Document processing: load files, split them into chunks, create embeddings, and persist the FAISS index.
+2. Question answering: retrieve evidence, filter it, generate an answer, check grounding, and produce a decision brief.
 
 **Nodes:**
 | Node | Purpose |
 |------|---------|
-| **Decompose** | Breaks open-ended questions into 2–4 focused sub-queries |
-| **Retrieve** | Multi-query FAISS retrieval with deduplication |
-| **Grade** | LLM-based relevance scoring — filters irrelevant chunks |
-| **Generate** | Synthesizes factual answer grounded in documents |
-| **Hallucination Check** | Verifies answer is supported by source documents |
-| **Rewrite** | Rewrites query for better retrieval if not grounded (max 2 retries) |
-| **Synthesize** | Produces structured decision brief: Situation → Findings → Risks → Recommendation |
+| **Decompose** | Uses the LLM to decide whether the input should stay as one question or be split into up to 4 focused sub-questions |
+| **Retrieve** | Embeds each sub-question, runs FAISS similarity search, and deduplicates chunks by content |
+| **Grade** | Sends retrieved chunks to the LLM in one batch and keeps only the chunks judged relevant |
+| **Generate** | Produces a factual answer grounded only in the filtered document context |
+| **Hallucination Check** | Asks the LLM whether the generated answer is supported by the retrieved source chunks |
+| **Rewrite** | Rewrites the question to improve retrieval when the answer is not sufficiently grounded |
+| **Synthesize** | Produces a final decision brief with situation summary, findings, risks, and recommendation |
+
+**Execution notes:**
+- Maximum rewrite loops: `2`
+- Retrieval depth per sub-question: `TOP_K = 5`
+- Fallback after grading: top `TOP_N = 3` chunks by relevance score when all chunks are filtered out
 
 ## Tech Stack
 
@@ -55,27 +64,29 @@ In short, the system is designed to help leadership teams move from scattered do
 ## Project Structure
 
 ```
-ai-leadership-agent/
-├── app.py                          # Streamlit UI
-├── build_index.py                  # Standalone index builder
-├── config.py                       # Configuration (models, paths, params)
+ai-leadership-agent-adobe/
+├── app.py                          # Streamlit chat app and document upload UI
+├── build_index.py                  # Loads docs, chunks them, and builds the FAISS index
+├── rebuild_and_test.py             # Rebuilds the index and runs one end-to-end smoke test
+├── test_all_questions.py           # Runs a small batch of example leadership questions
+├── config.py                       # Azure, chunking, retrieval, and path configuration
 ├── requirements.txt
-├── .env.example                    # Environment template
+├── .env.example                    # Environment variable template
 ├── data/
-│   └── documents/                  # Place company docs here (PDF, DOCX, TXT, CSV, XLSX)
-├── faiss_index/                    # Generated vector index (auto-created)
+│   └── documents/                  # Source business documents used for retrieval
+├── faiss_index/                    # Persisted FAISS index files
 └── src/
-    ├── ingestion/
-    │   ├── loader.py               # Multi-format document loader
-    │   └── chunker.py              # Hybrid chunking (section-aware + semantic)
-    ├── vectorstore/
-    │   └── store.py                # FAISS index creation / loading
-    ├── retrieval/
-    │   └── retriever.py            # Document retrieval helpers
-    ├── generation/
-    │   └── generator.py            # Azure OpenAI REST calls, LLM + embeddings
-    └── agent/
-        └── pipeline.py             # LangGraph agentic pipeline (7 nodes)
+   ├── ingestion/
+   │   ├── loader.py               # Loads PDF, DOC, DOCX, TXT, CSV, XLS, XLSX, PPTX files
+   │   └── chunker.py              # Recursive character chunking with overlap
+   ├── vectorstore/
+   │   └── store.py                # Embedding model setup and FAISS create/load/update helpers
+   ├── retrieval/
+   │   └── retriever.py            # Simple retrieval helpers for similarity search
+   ├── generation/
+   │   └── generator.py            # Azure OpenAI chat and embedding REST helpers
+   └── agent/
+      └── pipeline.py             # 7-node agent pipeline and end-to-end runner
 ```
 
 ## Setup
@@ -87,7 +98,7 @@ ai-leadership-agent/
 
 2. **Configure environment:**
    ```bash
-   cp .env.example .env
+   copy .env.example .env
    ```
    Edit `.env` with your Azure OpenAI credentials:
    ```
@@ -96,7 +107,15 @@ ai-leadership-agent/
    ```
 
 3. **Add documents:**
-   Place company documents (PDF, DOCX, TXT, CSV, XLSX) in `data/documents/`.
+   Place company documents in `data/documents/`.
+
+   Supported file types in the current loader implementation:
+   - PDF
+   - DOC and DOCX
+   - TXT
+   - CSV
+   - XLS and XLSX
+   - PPTX
 
 4. **Build the vector index:**
    ```bash
@@ -110,10 +129,15 @@ ai-leadership-agent/
 
 ## Chunking Strategy
 
-The system uses a **hybrid chunking approach** optimized for retrieval quality:
+The current implementation uses **recursive character chunking**, not semantic or section-aware chunking.
 
-- **Structured documents** (with headers/sections): Section-aware splitting preserves topic boundaries. Headers are detected via regex patterns (markdown, ALL CAPS, separator lines). Large sections are sub-split.
-- **Unstructured documents** (no headers): Semantic chunking via `SemanticChunker` embeds each sentence and cuts at topic shifts (75th percentile embedding dissimilarity). Oversized chunks are sub-split.
+- Implemented with `RecursiveCharacterTextSplitter`
+- Default chunk size: `1000` characters
+- Default overlap: `200` characters
+- Separator priority: paragraph breaks, line breaks, sentence boundaries, spaces, then raw character fallback
+- Metadata from the original document is preserved on each chunk
+
+This means the splitter prefers natural text boundaries when possible, but falls back to smaller units to ensure large documents are broken into retrieval-friendly chunks.
 
 ## Usage
 
