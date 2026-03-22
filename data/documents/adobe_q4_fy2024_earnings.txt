@@ -1,0 +1,78 @@
+Adobe Inc. — Q4 FY2024 Earnings Summary
+Quarter Ended: November 29, 2024
+(Based on Adobe's publicly released Q4 FY2024 earnings press release)
+
+==========================================================
+Q4 FY2024 FINANCIAL RESULTS
+==========================================================
+
+Revenue: $5.61 billion (up 11% YoY from $5.05 billion in Q4 FY2023)
+  - Digital Media segment revenue: $4.15 billion (up 12% YoY)
+  - Digital Experience segment revenue: $1.40 billion (up 10% YoY)
+  - Publishing and Advertising: $0.06 billion
+
+GAAP Operating Income: $2.00 billion
+Non-GAAP Operating Income: $2.73 billion
+GAAP Net Income: $1.68 billion
+Non-GAAP Net Income: $2.31 billion
+GAAP Diluted EPS: $3.79
+Non-GAAP Diluted EPS: $5.23
+
+==========================================================
+DIGITAL MEDIA — Q4 PERFORMANCE
+==========================================================
+
+Digital Media segment revenue: $4.15 billion (up 12% year-over-year)
+Digital Media net new ARR: $578 million in Q4 FY2024
+
+Creative Cloud:
+  - Creative Cloud ARR: $13.55 billion (end of Q4 FY2024)
+  - Strong adoption of Firefly-powered features across Photoshop, Illustrator, and Express
+  - Over 16 billion cumulative Firefly generations since launch
+  - Adobe Express continued rapid growth with Firefly integration
+  - GenStudio for Performance Marketing gaining enterprise traction
+
+Document Cloud:
+  - Document Cloud ARR: $3.47 billion (end of Q4 FY2024)
+  - Acrobat AI Assistant driving engagement and conversion
+  - Growing adoption of Reader across web and mobile platforms
+  - Strong enterprise demand for document workflows with AI capabilities
+
+==========================================================
+DIGITAL EXPERIENCE — Q4 PERFORMANCE
+==========================================================
+
+Digital Experience segment revenue: $1.40 billion (up 10% YoY)
+Digital Experience subscription revenue: $1.28 billion (up 12% YoY)
+
+Key highlights:
+  - Adobe Experience Platform adoption continued to grow
+  - Real-Time CDP expanding enterprise customer base
+  - Journey Optimizer showing strong growth in omnichannel orchestration
+  - Adobe Commerce maintaining position despite competitive e-commerce landscape
+  - AI capabilities in Experience Platform driving deeper platform engagement
+
+==========================================================
+CASH FLOW AND BALANCE SHEET — Q4
+==========================================================
+
+Operating Cash Flow (Q4): $2.87 billion
+Cash, cash equivalents, and short-term investments: $7.89 billion
+Total debt: $5.65 billion
+Share repurchases in Q4: Approximately $3.0 billion
+
+==========================================================
+MANAGEMENT COMMENTARY
+==========================================================
+
+CEO Shantanu Narayen highlighted:
+  - "Adobe delivered a strong finish to fiscal 2024, achieving record revenue driven by the strength of our Creative Cloud, Document Cloud, and Experience Cloud offerings."
+  - Firefly's rapid adoption demonstrates the value of commercially safe generative AI
+  - The company is well-positioned for the AI opportunity across all three clouds
+  - Continued investment in AI innovation remains the top priority
+
+CFO Dan Durn noted:
+  - Strong revenue growth driven by Digital Media and Digital Experience
+  - Healthy operating margins reflect operational discipline combined with strategic investment
+  - Cash flow generation remains robust, supporting share repurchase program
+  - FY2025 guidance reflects confidence in sustained demand across product portfolio

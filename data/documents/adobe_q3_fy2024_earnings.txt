@@ -1,0 +1,71 @@
+Adobe Inc. — Q3 FY2024 Earnings Summary
+Quarter Ended: August 30, 2024
+(Based on Adobe's publicly released Q3 FY2024 earnings press release)
+
+==========================================================
+Q3 FY2024 FINANCIAL RESULTS
+==========================================================
+
+Revenue: $5.41 billion (up 11% YoY from $4.89 billion in Q3 FY2023)
+  - Digital Media segment revenue: $3.99 billion (up 12% YoY)
+  - Digital Experience segment revenue: $1.35 billion (up 10% YoY)
+  - Publishing and Advertising: $0.07 billion
+
+GAAP Operating Income: $1.90 billion
+Non-GAAP Operating Income: $2.60 billion
+GAAP Net Income: $1.48 billion
+Non-GAAP Net Income: $2.09 billion
+GAAP Diluted EPS: $3.26
+Non-GAAP Diluted EPS: $4.65
+
+==========================================================
+DIGITAL MEDIA — Q3 PERFORMANCE
+==========================================================
+
+Digital Media segment revenue: $3.99 billion (up 12% year-over-year)
+Digital Media net new ARR: $504 million in Q3 FY2024
+
+Creative Cloud:
+  - Creative Cloud ARR: $13.26 billion (end of Q3 FY2024)
+  - Photoshop on the web and mobile continued to gain users
+  - Firefly Image Model 3 released with photorealistic quality improvements
+  - Firefly Vector Model introduced in Illustrator for AI-native vector generation
+  - Premiere Pro audio enhancement and AI editing features gaining adoption
+  - Adobe MAX 2024 announcements expected to drive further innovation
+
+Document Cloud:
+  - Document Cloud ARR: $3.34 billion (end of Q3 FY2024)
+  - Acrobat AI Assistant expanding across enterprise accounts
+  - Liquid Mode and AI-powered summarization driving mobile engagement
+
+==========================================================
+DIGITAL EXPERIENCE — Q3 PERFORMANCE
+==========================================================
+
+Digital Experience segment revenue: $1.35 billion (up 10% YoY)
+Digital Experience subscription revenue: $1.23 billion (up 12% YoY)
+
+Key highlights:
+  - Adobe Experience Platform continued as foundation for enterprise digital transformation
+  - Real-Time CDP and Journey Optimizer showing strong enterprise pipeline
+  - Adobe Summit announcements driving awareness and pipeline for Experience Cloud
+  - AI Assistant capabilities expanding across Experience Platform
+
+==========================================================
+NOTABLE RISKS IN Q3
+==========================================================
+
+  - Enterprise deal cycles remain elongated in certain regions due to macroeconomic caution
+  - Foreign exchange headwinds continued to impact reported revenue — estimated ~2% negative FX impact
+  - Competitive landscape intensifying with Canva's enterprise push and Figma's product expansion
+  - Midjourney and other AI image generators creating pricing pressure in creative tools
+  - China market softness persisting due to local competition and economic conditions
+
+==========================================================
+MANAGEMENT OUTLOOK — Q3
+==========================================================
+
+  - Adobe raised full-year revenue guidance slightly following Q3 results
+  - Management expressed confidence in Digital Media net new ARR trajectory
+  - Continued emphasis on AI-driven product innovation across all three clouds
+  - Q4 FY2024 expected to benefit from Adobe MAX product launches and holiday-driven demand

@@ -1,0 +1,114 @@
+Adobe Inc. — Financial Dashboard Summary FY2024
+Full Year and Quarterly Breakdown
+(Compiled from Adobe's publicly filed earnings press releases FY2024)
+
+==========================================================
+FY2024 FULL-YEAR CONSOLIDATED RESULTS
+==========================================================
+
+Total Revenue: $21.51 billion (FY2023: $19.41 billion, growth: +11%)
+  Digital Media Revenue: $15.86 billion (FY2023: $14.22 billion, growth: +12%)
+  Digital Experience Revenue: $5.38 billion (FY2023: $4.89 billion, growth: +10%)
+  Publishing and Advertising: $0.27 billion
+
+GAAP Operating Income: $7.08 billion (operating margin: 32.9%)
+Non-GAAP Operating Income: $9.95 billion (non-GAAP operating margin: 46.3%)
+GAAP Net Income: $5.90 billion (FY2023: $5.41 billion)
+Non-GAAP Net Income: $8.38 billion
+GAAP Diluted EPS: $13.03 (FY2023: $11.82)
+Non-GAAP Diluted EPS: $18.42
+
+==========================================================
+QUARTERLY REVENUE PROGRESSION — FY2024
+==========================================================
+
+                 Q1 FY2024    Q2 FY2024    Q3 FY2024    Q4 FY2024
+Total Revenue     $5.18B       $5.31B       $5.41B       $5.61B
+  YoY Growth       +11%         +10%         +11%         +11%
+Digital Media     $3.82B       $3.91B       $3.99B       $4.15B
+Digital Exp.      $1.29B       $1.33B       $1.35B       $1.40B
+
+==========================================================
+DIGITAL MEDIA ARR PROGRESSION — FY2024
+==========================================================
+
+                    Q1 FY2024    Q2 FY2024    Q3 FY2024    Q4 FY2024
+Creative Cloud ARR   $12.52B      $12.86B      $13.26B      $13.55B
+Document Cloud ARR    $3.09B       $3.21B       $3.34B       $3.47B
+Total DM ARR         $15.61B      $16.07B      $16.60B      $17.02B
+
+Net New DM ARR       $432M        $487M        $504M        $578M
+Total FY2024 net new DM ARR: approximately $2.00 billion
+
+==========================================================
+PROFITABILITY METRICS — FY2024
+==========================================================
+
+GAAP Gross Margin: 88.7% (consistent with FY2023: 88.2%)
+Non-GAAP Gross Margin: 91.9%
+GAAP Operating Margin: 32.9% (lower due to $1B Figma termination fee in Q1)
+Non-GAAP Operating Margin: 46.3% (FY2023: 46.1%)
+
+Research and Development: $3.41 billion (15.9% of revenue)
+Sales and Marketing: $5.01 billion (23.3% of revenue)
+General and Administrative: $1.14 billion (5.3% of revenue)
+
+==========================================================
+CASH FLOW AND BALANCE SHEET — FY2024
+==========================================================
+
+Operating Cash Flow: $9.87 billion (FY2023: $8.88 billion, growth: +11%)
+Capital Expenditures: approximately $0.55 billion
+Free Cash Flow: approximately $9.32 billion
+
+Share Repurchases: $8.0 billion in FY2024 (approximately 15.5 million shares retired)
+Dividends Paid: approximately $0 (Adobe does not pay dividends)
+Cash and Short-Term Investments (end of FY2024): $7.89 billion
+Total Debt (end of FY2024): $3.65 billion
+Net Cash Position: approximately $4.24 billion
+
+Remaining Performance Obligations (end of FY2024): $18.45 billion
+
+==========================================================
+QUARTERLY EPS — FY2024
+==========================================================
+
+                 Q1 FY2024    Q2 FY2024    Q3 FY2024    Q4 FY2024
+GAAP EPS          $1.36        $3.49        $3.26        $4.92
+Non-GAAP EPS      $4.27        $4.48        $4.65        $5.02
+
+Note: Q1 GAAP EPS depressed due to $1.0B Figma termination fee booked in that quarter.
+
+==========================================================
+SEGMENT OPERATING INCOME — FY2024
+==========================================================
+
+Digital Media: segment profit increased to approximately $12.0 billion (margin ~75.7%)
+Digital Experience: segment profit approximately $2.25 billion (margin ~41.8%)
+
+==========================================================
+KEY PERFORMANCE INDICATORS — FY2024 TRENDS
+==========================================================
+
+1. Revenue Growth: 11% total (12% Digital Media, 10% Digital Experience)
+2. Net New DM ARR Acceleration: $432M → $487M → $504M → $578M (growing each quarter)
+3. Firefly Scale: Cumulative generations 6.5B (Q1) → 9B (Q2) → 12B+ (Q3) → 16B+ (Q4)
+4. Operating Margin Stability: Non-GAAP operating margin held at ~46.3% despite AI investment
+5. Free Cash Flow per Share: approximately $20.50 (calculated from ~$9.32B FCF / ~455M diluted shares)
+6. Share Count Reduction: diluted shares decreased from ~458M to ~453M due to buybacks
+
+==========================================================
+FY2025 GUIDANCE (ISSUED DECEMBER 2024)
+==========================================================
+
+Total Revenue: $23.30–$23.55 billion (representing ~8-9% growth)
+Digital Media net new ARR: approximately $2.15 billion
+Non-GAAP EPS: approximately $20.20–$20.50
+Q1 FY2025 Revenue: approximately $5.63–$5.68 billion
+Effective Non-GAAP tax rate: approximately 18.5%
+Operating Cash Flow: approximately $10.75 billion
+
+Long-term target model:
+  - Revenue growth: low-to-mid teens
+  - Non-GAAP operating margin: ~46-48%
+  - Free cash flow margin: ~42-45%

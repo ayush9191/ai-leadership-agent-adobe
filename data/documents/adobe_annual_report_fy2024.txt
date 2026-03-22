@@ -1,0 +1,138 @@
+Adobe Inc. — Annual Report Summary FY2024
+(Based on publicly available SEC filings and earnings releases)
+Fiscal Year Ended: November 29, 2024
+
+==========================================================
+COMPANY OVERVIEW
+==========================================================
+
+Adobe Inc. (NASDAQ: ADBE) is a global technology company headquartered in San Jose, California.
+Adobe operates through three reportable segments: Digital Media, Digital Experience, and Publishing and Advertising.
+
+CEO: Shantanu Narayen
+Chairman: John Warnock (Co-Founder)
+Employees: Approximately 30,000
+Fiscal Year End: Late November / Early December
+
+==========================================================
+FY2024 FINANCIAL HIGHLIGHTS
+==========================================================
+
+Total Revenue: $21.51 billion (up 11% year-over-year from $19.41 billion in FY2023)
+  - Digital Media segment revenue: $15.86 billion (74% of total revenue)
+  - Digital Experience segment revenue: $5.38 billion (25% of total revenue)
+  - Publishing and Advertising segment revenue: $0.27 billion (1% of total revenue)
+
+GAAP Operating Income: $7.58 billion (operating margin ~35.2%)
+Non-GAAP Operating Income: $10.15 billion (non-GAAP operating margin ~47.2%)
+GAAP Net Income: $5.90 billion
+Non-GAAP Net Income: $8.34 billion
+GAAP Diluted EPS: $13.03
+Non-GAAP Diluted EPS: $18.42
+Operating Cash Flow: $8.85 billion
+Free Cash Flow: Approximately $8.50 billion
+Cash, Cash Equivalents, and Short-Term Investments: $7.89 billion (as of end FY2024)
+Total Debt: $5.65 billion
+
+==========================================================
+DIGITAL MEDIA SEGMENT
+==========================================================
+
+Digital Media segment revenue: $15.86 billion (up 12% YoY from $14.22 billion in FY2023)
+
+Creative Cloud:
+  - Creative Cloud ARR (Annualized Recurring Revenue): $13.55 billion (as of Q4 FY2024)
+  - Creative Cloud is the world's leading creative platform, including Photoshop, Illustrator, Premiere Pro, After Effects, Lightroom, InDesign, and more
+  - Firefly generative AI model family was a key growth driver in FY2024
+  - Over 16 billion Firefly-powered generations since launch (as of Q4 FY2024)
+  - Firefly integrated across Creative Cloud applications including Photoshop, Illustrator, Premiere Pro, Express, and Adobe Stock
+  - GenStudio for Performance Marketing launched for enterprise content creation at scale
+
+Document Cloud:
+  - Document Cloud ARR: $3.47 billion (as of Q4 FY2024)
+  - Acrobat and Acrobat Reader remain the global standard for PDF
+  - AI Assistant for Acrobat launched, enabling conversational interaction with documents
+  - Reader monthly active users continued growth across web and mobile
+
+==========================================================
+DIGITAL EXPERIENCE SEGMENT
+==========================================================
+
+Digital Experience segment revenue: $5.38 billion (up 10% YoY from $4.89 billion in FY2023)
+
+Key products and platforms:
+  - Adobe Experience Platform (AEP): Foundation for real-time customer profiles and AI-driven experiences
+  - Adobe Experience Cloud: Suite including Analytics, Target, Campaign, Journey Optimizer, Commerce, Marketo Engage, and Workfront
+  - Adobe Real-Time CDP: Unified customer data platform with growing enterprise adoption
+  - Adobe Journey Optimizer: Omnichannel customer journey orchestration
+  - Adobe Commerce (Magento): E-commerce platform for B2B and B2C
+  - Subscription revenue within Digital Experience: $4.91 billion (up 12% YoY)
+
+==========================================================
+GENERATIVE AI STRATEGY
+==========================================================
+
+Adobe Firefly was the centerpiece of Adobe's AI strategy in FY2024.
+
+Key developments:
+  - Firefly Image Model 3 released with significant quality improvements
+  - Firefly Vector Model for Illustrator introduced AI-native vector graphics generation
+  - Firefly Video Model announced for Premiere Pro
+  - Firefly is commercially safe — trained on licensed Adobe Stock content, openly licensed content, and public domain content
+  - Adobe offers IP indemnification for Firefly-generated content in enterprise plans
+  - Content Credentials (powered by C2PA standard) embedded in Firefly outputs for provenance tracking
+  - Adobe Express re-launched with Firefly deeply integrated for quick content creation
+  - GenStudio for Performance Marketing entered market for enterprise AI content supply chain
+
+AI across products:
+  - Photoshop: Generative Fill, Generative Expand, Remove Tool powered by Firefly
+  - Illustrator: Text-to-Vector, Generative Recolor
+  - Premiere Pro: AI-powered audio enhancement, scene detection, transcript-based editing
+  - Acrobat: AI Assistant for document summarization, Q&A, and citation
+  - Experience Platform: AI-powered audience segmentation, predictive analytics, content personalization
+
+==========================================================
+KEY RISKS AND CHALLENGES
+==========================================================
+
+Competition:
+  - Intense competition in creative tools from Canva, Figma (now independent after terminated acquisition), and emerging AI-native tools
+  - Enterprise marketing platform competition from Salesforce, HubSpot, and others
+  - Generative AI competition from OpenAI (DALL-E, Sora), Midjourney, Stability AI, Google, and Meta
+
+Figma acquisition termination:
+  - Adobe terminated its planned $20 billion acquisition of Figma in December 2023 due to regulatory opposition
+  - $1 billion termination fee paid to Figma
+  - Figma remains a key competitor in design and prototyping
+
+Macroeconomic factors:
+  - Foreign exchange headwinds impacted reported revenue growth
+  - Enterprise spending scrutiny affecting deal sizes and sales cycles
+  - Geopolitical uncertainties in certain markets
+
+AI-related risks:
+  - Rapid pace of AI development requires continuous investment
+  - Potential IP and copyright challenges related to generative AI broadly
+  - Need to maintain trust in commercially safe AI training data practices
+
+==========================================================
+CAPITAL ALLOCATION
+==========================================================
+
+Share Repurchases: Adobe repurchased approximately $8.0 billion of common stock in FY2024
+Remaining authorization: $14.4 billion as of end FY2024
+Dividend: Adobe does not pay a cash dividend
+Total shares outstanding: Approximately 440 million (diluted) as of end FY2024
+
+==========================================================
+FY2025 OUTLOOK (as provided in Q4 FY2024 earnings)
+==========================================================
+
+Adobe provided the following FY2025 guidance during the Q4 FY2024 earnings call (December 2024):
+  - Total revenue: $23.30 billion to $23.55 billion (approximately 8-9% YoY growth)
+  - Digital Media segment net new ARR: Approximately $2.15 billion
+  - Digital Experience segment revenue growth: ~10% YoY
+  - Non-GAAP EPS: $20.20 to $20.50
+  - Non-GAAP tax rate: ~18.5%
+  - Operating cash flow: Approximately $9.6 billion
+  - Share repurchases expected to continue at significant levels

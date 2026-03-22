@@ -1,0 +1,85 @@
+Adobe Inc. — Q2 FY2024 Earnings Summary
+Quarter Ended: May 31, 2024
+(Based on Adobe's publicly released Q2 FY2024 earnings press release)
+
+==========================================================
+Q2 FY2024 FINANCIAL RESULTS
+==========================================================
+
+Revenue: $5.31 billion (up 10% YoY from $4.82 billion in Q2 FY2023)
+  - Digital Media segment revenue: $3.91 billion (up 11% YoY)
+  - Digital Experience segment revenue: $1.33 billion (up 9% YoY)
+  - Publishing and Advertising: $0.07 billion
+
+GAAP Operating Income: $1.89 billion
+Non-GAAP Operating Income: $2.55 billion
+GAAP Net Income: $1.57 billion
+Non-GAAP Net Income: $2.02 billion
+GAAP Diluted EPS: $3.49
+Non-GAAP Diluted EPS: $4.48
+
+==========================================================
+DIGITAL MEDIA — Q2 PERFORMANCE
+==========================================================
+
+Digital Media segment revenue: $3.91 billion (up 11% year-over-year)
+Digital Media net new ARR: $487 million in Q2 FY2024
+
+Creative Cloud:
+  - Creative Cloud ARR: $12.86 billion (end of Q2 FY2024)
+  - Adobe Firefly cumulative generations surpassed 9 billion as of Q2 end
+  - Generative Fill and Generative Expand in Photoshop driving usage growth
+  - Firefly Services launched for enterprise API-driven content generation at scale
+  - Express for Enterprise gaining traction with marketing teams
+  - New pricing plans for Creative Cloud introduced with AI premium features
+
+Document Cloud:
+  - Document Cloud ARR: $3.21 billion (end of Q2 FY2024)
+  - Acrobat AI Assistant general availability announced, early adoption strong
+  - PDF collaboration features seeing increased enterprise usage
+  - Reader mobile app user base growing, driven by AI summarization features
+
+==========================================================
+DIGITAL EXPERIENCE — Q2 PERFORMANCE
+==========================================================
+
+Digital Experience segment revenue: $1.33 billion (up 9% YoY)
+Digital Experience subscription revenue: $1.20 billion (up 11% YoY)
+
+Key highlights:
+  - Adobe Experience Platform and native applications driving digital transformation
+  - GenStudio for Performance Marketing announced, combining content supply chain with analytics
+  - Content Supply Chain solution gaining enterprise interest
+  - Customer Journey Analytics adoption accelerating in retail and financial services
+  - AEM as a Cloud Service migrations continuing from on-premise AEM installations
+
+==========================================================
+NOTABLE RISKS IN Q2
+==========================================================
+
+  - Figma acquisition terminated — Adobe paid $1 billion breakup fee in Q1 FY2024
+  - Regulatory scrutiny increasing globally — EU Digital Markets Act and AI Act creating compliance costs
+  - Subscription cancellation lawsuit alleging deceptive practices — potential reputational risk
+  - Consumer creative tool market fragmenting with free AI alternatives reducing barrier to entry
+  - SMB segment showing price sensitivity to AI-tier upselling
+  - Macroeconomic uncertainty in Europe and Asia affecting enterprise deal velocity
+
+==========================================================
+CASH FLOW AND CAPITAL ALLOCATION — Q2
+==========================================================
+
+Operating Cash Flow: $2.39 billion in Q2 FY2024
+Free Cash Flow: approximately $2.30 billion
+Share Repurchases: $2.2 billion in Q2 FY2024
+Cash and Short-Term Investments: $7.69 billion (end of Q2)
+Remaining Performance Obligations: $17.82 billion
+
+==========================================================
+MANAGEMENT OUTLOOK — Q2
+==========================================================
+
+  - Full-year FY2024 revenue target: approximately $21.40–$21.50 billion
+  - Non-GAAP EPS target for FY2024: approximately $18.00–$18.20
+  - Management highlighted AI monetization as multi-year revenue catalyst
+  - Firefly commercial model validated — consumption-based pricing scaling
+  - International expansion in Japan and India highlighted as growth vectors
