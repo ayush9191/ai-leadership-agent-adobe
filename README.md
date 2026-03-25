@@ -200,3 +200,15 @@ Key parameters in `config.py`:
 | `CHUNK_OVERLAP` | `200` | Overlap between chunks |
 | `TOP_K` | `5` | Chunks retrieved per sub-query |
 | `TOP_N` | `3` | Chunks kept after re-ranking |
+
+## Example Use Cases
+
+We evaluate the system using real-world financial and strategic queries:
+
+| Test Case | Description |
+|----------|------------|
+| Revenue Trend | Analysis of company growth |
+| Underperformance | Identifying weak segments |
+| Risk Analysis | Extracting key business risks |
+
+📂 Detailed examples available in `/examples` folder.
